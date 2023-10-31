@@ -1,4 +1,9 @@
-.App {
+html, body, #root, #root > div {
+  height: 100%;
+}
+
+/* --아래는 모두 삭제한다 --- */
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +40,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

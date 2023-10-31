@@ -1,24 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+// react로 쇼핑몰 코딩하기 : https://www.inflearn.com/course/lecture?courseSlug=%EC%98%AC%EC%9D%B8%EC%9B%90-%EA%B0%9C%EB%B0%9C%ED%81%B4%EB%9E%98%EC%8A%A4&unitId=63364
 
+import "./App.css"
+import MainPage from './main/index.js'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <MainPage />
   );
 }
 
